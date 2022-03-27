@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "v16.14.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "devstart": "nodemon ./server/bin/www",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.2.8",
+    "morgan": "~1.9.1"
+  }
+}
